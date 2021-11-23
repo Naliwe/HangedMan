@@ -6,7 +6,7 @@ int my_strLen(const char str[]) // return a lenght of string.
 {
     int i = 0;
 
-    while (str != 0)
+    while (str[i] != 0)
     {
         i++;
     }
